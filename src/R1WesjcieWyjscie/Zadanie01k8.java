@@ -16,12 +16,11 @@ public class Zadanie01k8 {
             a = Double.parseDouble(buffer.readLine());
             System.out.println("Podaj długość boku b: ");
             b = Double.parseDouble(buffer.readLine());
-            area=a*b;
+            area = a * b;
             System.out.println("Pole powierzchni prostokata wynosi: " + area);
-        } catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             System.out.println("Nie wprowadzono liczby, koniec programu");
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.getMessage();
         }
     }
