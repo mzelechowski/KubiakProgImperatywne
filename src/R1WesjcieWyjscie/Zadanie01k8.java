@@ -18,8 +18,11 @@ public class Zadanie01k8 {
             b = Double.parseDouble(buffer.readLine());
             area=a*b;
             System.out.println("Pole powierzchni prostokata wynosi: " + area);
-        } catch (IOException ioException) {
-            ioException.printStackTrace();
+        } catch (NumberFormatException e){
+            System.out.println("Nie wprowadzono liczby, koniec programu");
+        }
+        catch (IOException e) {
+            e.getMessage();
         }
     }
 }
