@@ -29,7 +29,7 @@ public class Zadanie04k7 {
             sumKol0 += tab[i][0];
             sumKol1 += tab[i][1];
         }
-        System.out.println("Suma liczb w kolumnie 0 wynosi: " + sumKol0);
-        System.out.println("Suma liczb w kolumnie 1 wynosi: " + sumKol1);
+        System.out.println("Suma liczb w kolumnie 0 wynosi: " + sumKol0+".");
+        System.out.println("Suma liczb w kolumnie 1 wynosi: " + sumKol1+".");
     }
 }
