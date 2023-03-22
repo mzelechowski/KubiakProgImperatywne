@@ -4,7 +4,7 @@ public class Zadanie03k25 {
     public static void main(String[] args) {
         /*Napisz program, który za pomocą metody monte Carlo oblicza liczbę PI
         z określoną dokładnoscią.
-         */
+                123456789*/
         int n = 999999999;
         double x, y;
         int k = 0;
@@ -15,8 +15,8 @@ public class Zadanie03k25 {
                 k++;
         }
         double pi = 4.0 * k / n;
-        System.out.println("Obliczona liczba pi= " + pi + ".");
-        System.out.println("Stała pi: " + Math.PI + ".");
+        System.out.println("Obliczona liczba pi= \t" + pi + ".");
+        System.out.println("Stała pi: \t\t\t\t" + Math.PI + ".");
         System.out.println("Różnica= " + Math.abs(Math.PI - pi) + ".");
     }
 }
