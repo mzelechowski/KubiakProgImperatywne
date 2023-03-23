@@ -45,7 +45,7 @@ class Person {
     public void print() {
         System.out.println("Nazwisko: " + surname);
         System.out.println("Imie: " + name);
-        System.out.println("Ulicza: " + street);
+        System.out.println("Ulica: " + street);
         System.out.println("Kod pocztowy: " + postcode);
         System.out.println("Miasto: " + city);
     }
