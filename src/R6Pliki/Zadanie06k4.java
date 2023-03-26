@@ -1,6 +1,5 @@
 package R6Pliki;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 

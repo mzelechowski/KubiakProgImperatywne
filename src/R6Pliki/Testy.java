@@ -1,5 +1,4 @@
 package R6Pliki;
-
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
