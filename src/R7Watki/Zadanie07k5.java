@@ -17,11 +17,11 @@ class Priority implements Runnable {
         System.out.println(thr.getName() + " startuje.");
         do {
             counter++;
-            if (current_name != thr.getName()) {
+            if (current_name.equals(thr.getName())) {
                 current_name = thr.getName();
                 System.out.println(current_name);
             }
-        } while (stop == false && counter < 10000);
+        } while (!stop && counter < 10000);
         stop=true;
         System.out.println(thr.getName() + " zakonczono.");
     }
