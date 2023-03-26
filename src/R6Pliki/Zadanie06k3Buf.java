@@ -58,7 +58,7 @@ class Matrix3b {
     public void readDataFromFile() throws IOException {
         String inLine = "";
         String [] tab;
-        System.out.println("\nOdczytujemy dane z plikureadDataFromFile");
+        System.out.println("\nOdczytujemy dane z plikureadDataFromFile  by readline");
         FileReader fr = new FileReader(fileName);
         BufferedReader br = new BufferedReader(fr);
         ArrayList<String> lista = new ArrayList<>();
