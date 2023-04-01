@@ -1,6 +1,6 @@
 package R8Generyczne;
 
-import java.util.ArrayList;
+
 
 public class Zadanie08k2 {
     public static void main(String[] args) {

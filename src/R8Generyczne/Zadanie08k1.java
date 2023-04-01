@@ -1,5 +1,4 @@
 package R8Generyczne;
-
 import java.util.ArrayList;
 
 class StosGeneryczny<E> {
